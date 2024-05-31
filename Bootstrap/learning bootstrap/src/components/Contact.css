@@ -1,0 +1,27 @@
+.section {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #333, #555);
+  color: white;
+  
+  
+}
+#id{
+  height: 6cm;
+}
+.contact-info {
+  margin: 1rem 0;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.contact-info a {
+  color: #00aced;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}

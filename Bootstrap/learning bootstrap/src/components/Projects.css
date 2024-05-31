@@ -1,0 +1,60 @@
+.section {
+ 
+  background: linear-gradient(135deg, #333, #555);
+  color: white;
+  box-shadow: 
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgba(18, 10, 15, 0.955),
+  0 0 82px rgb(101, 81, 93),
+  0 0 92px rgb(91, 106, 117),
+  0 0 102px rgb(78, 78, 84),
+  0 0 151px rgb(32, 29, 31);;
+  
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  flex: 1 1 300px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: transform 0.3s ease;
+  color: black;
+  
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgba(79, 63, 73, 0.955),
+  0 0 82px rgb(101, 81, 93),
+  0 0 92px rgb(91, 106, 117),
+  0 0 102px rgb(78, 78, 84),
+  0 0 151px rgb(32, 29, 31);;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+.section {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #333, #555);
+  color: white;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.skill {
+  margin: 0 1rem;
+  text-align: center;
+  padding: 0.6cm;
+}
+
+.skill-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill span {
+  display: block;
+}
+.h2{
+  text-shadow: 
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgba(79, 63, 73, 0.955),
+  0 0 82px rgb(101, 81, 93),
+  0 0 92px rgb(91, 106, 117),
+  0 0 102px rgb(78, 78, 84),
+  0 0 151px rgb(32, 29, 31);;
+}
+.resume-link {
+  
+  padding: 0.5rem 1rem;
+  border: 2px solid #00aced;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #00aced;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-link:hover {
+  background-color: #00aced;
+  color: #fff;
+}
